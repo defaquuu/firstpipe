@@ -1,0 +1,15 @@
+C:\Users\vipil\Desktop\firstpipe\Calculator\bin\Debug\net8.0\Calculator.exe
+C:\Users\vipil\Desktop\firstpipe\Calculator\bin\Debug\net8.0\Calculator.deps.json
+C:\Users\vipil\Desktop\firstpipe\Calculator\bin\Debug\net8.0\Calculator.runtimeconfig.json
+C:\Users\vipil\Desktop\firstpipe\Calculator\bin\Debug\net8.0\Calculator.dll
+C:\Users\vipil\Desktop\firstpipe\Calculator\bin\Debug\net8.0\Calculator.pdb
+C:\Users\vipil\Desktop\firstpipe\Calculator\obj\Debug\net8.0\Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vipil\Desktop\firstpipe\Calculator\obj\Debug\net8.0\Calculator.AssemblyInfoInputs.cache
+C:\Users\vipil\Desktop\firstpipe\Calculator\obj\Debug\net8.0\Calculator.AssemblyInfo.cs
+C:\Users\vipil\Desktop\firstpipe\Calculator\obj\Debug\net8.0\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\vipil\Desktop\firstpipe\Calculator\obj\Debug\net8.0\Calculator.sourcelink.json
+C:\Users\vipil\Desktop\firstpipe\Calculator\obj\Debug\net8.0\Calculator.dll
+C:\Users\vipil\Desktop\firstpipe\Calculator\obj\Debug\net8.0\refint\Calculator.dll
+C:\Users\vipil\Desktop\firstpipe\Calculator\obj\Debug\net8.0\Calculator.pdb
+C:\Users\vipil\Desktop\firstpipe\Calculator\obj\Debug\net8.0\Calculator.genruntimeconfig.cache
+C:\Users\vipil\Desktop\firstpipe\Calculator\obj\Debug\net8.0\ref\Calculator.dll

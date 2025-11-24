@@ -12,28 +12,22 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    # Шаг 1: Получаем код из репозитория
     - name: Checkout code
       uses: actions/checkout@v4
 
-    # Шаг 2: Устанавливаем .NET
-    - name: Setup .NET 8
+    - name: Setup .NET
       uses: actions/setup-dotnet@v3
       with:
         dotnet-version: '8.x'
 
-    # Шаг 3: Восстанавливаем зависимости калькулятора
-    - name: Restore calculator packages
-      run: dotnet restore Calculator/Calculator.csproj
+    - name: Build calculator
+      run: |
+        cd Calculator
+        dotnet restore
+        dotnet build --configuration Release
 
-    # Шаг 4: Восстанавливаем зависимости тестов
-    - name: Restore test packages
-      run: dotnet restore Calculator.Tests/Calculator.Tests.csproj
-
-    # Шаг 5: Собираем проект
-    - name: Build project
-      run: dotnet build --no-restore --configuration Release
-
-    # Шаг 6: Запускаем тесты
     - name: Run tests
-      run: dotnet test --no-build --verbosity normal
+      run: |
+        cd Calculator.Tests
+        dotnet restore
+        dotnet test --verbosity normal
